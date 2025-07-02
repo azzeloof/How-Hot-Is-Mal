@@ -1,4 +1,4 @@
-# HowHotIsMal ESP32 Firmware
+# ESP32 Firmware
 
 This directory contains the source code for the ESP32 microcontroller that reads environmental data from a BME280 sensor and sends it to an InfluxDB database.
 
