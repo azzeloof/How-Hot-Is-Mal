@@ -2,6 +2,8 @@
 
 A simple project that reads temperature data on an ESP32, then logs it to an InfluxDB server and displays it on a dashboard so my friends can keep an eye on how hot their house is while they're away (to make sure the cat is comfortable).
 
+It's a quick-and-dirty implementation that ignores a bunch of best practices in favor of building something functional quickly.
+
 ## Architectural Overview
 
 The project is split into two main components: the firmware that runs on the physical sensor device and the web application that stores and displays the data.
